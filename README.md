@@ -48,7 +48,7 @@ This will render the below code:
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies.
+After cloning the repo, run `bin/setup` to install dependencies.
 Then, run `bin/console` for an interactive prompt that will allow you
 to experiment.
 

@@ -20,7 +20,7 @@ module Jekyll
               #{@markup}
 
             Valid syntax:
-              {% reactplayer example.com/my/asset %}
+              {% reactplayer https://example.com/asset %}
           ERR_MSG
         end
       end
