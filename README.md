@@ -34,7 +34,16 @@ Use the tag as follows in your Jekyll pages and posts:
 {% reactplayer https://example.com/asset %}
 ```
 
-This will render the associated script tag.
+This will render the below code:
+```js 
+<div id="#{id}">
+<script src='https://cdn.rawgit.com/CookPete/react-player/master/dist/ReactPlayer.standalone.js'></script>
+<script>
+  const container = document.getElementById("#{id}")
+  const url = '#{url}'
+  renderReactPlayer(container, { url, playing: true, controls: true, width: '100%', height: '100%' })
+</script>
+```
 
 
 ## Development
