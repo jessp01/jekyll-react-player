@@ -72,7 +72,7 @@ Code is under [AGPLv3 License][license].
 [badge-coveralls]: https://coveralls.io/repos/jessp01/jekyll-react-player/badge.svg
 [badge-gem]: https://badge.fury.io/rb/jekyll-react-player.svg
 [badge-license]: https://img.shields.io/github/license/jessp01/jekyll-react-player.svg?maxAge=604800
-[badge-dl]: https://img.shields.io/gem/dt/jekyll-react-player.svg?maxAge=604800
+[badge-dl]: https://img.shields.io/gem/dt/jekyll-react-player.svg
 [rubygems]: https://rubygems.org/gems/jekyll-react-player
 [liquid]: http://liquidmarkup.org "Liquid templating language"
 [jekyll]: http://jekyllrb.com "Jekyll"
