@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %(Liquid tag for embedding react-player in Jekyll sites.)
   spec.description   =
-    %(Provides a Liquid tag for embedding react-player in Jekyll sites.)
+    %(Provides a Liquid tag for embedding react-player supported formats in Jekyll sites.)
   spec.homepage      = 'https://github.com/jessp01/jekyll-react-player'
   spec.license       = 'AGPLv3'
 
