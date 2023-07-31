@@ -1,4 +1,4 @@
-# Jekyll::Asciinema
+# Jekyll::ReactPlayer
 [![.github/workflows/gem-build.yml][badge-build]][build]
 [![Gem Version][badge-gem]][rubygems]
 [![Gem][badge-dl]][rubygems]
