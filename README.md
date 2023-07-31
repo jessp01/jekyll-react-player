@@ -16,17 +16,23 @@ gem 'jekyll-react-player'
 
 And then execute:
 
-    $ bundle
+```sh
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install jekyll-react-player
+```
+$ gem install jekyll-react-player
+```
 
 ## Usage
 
 Use the tag as follows in your Jekyll pages and posts:
 
-    {% reactplayer https://example.com/asset %}
+```ruby
+{% reactplayer https://example.com/asset %}
+```
 
 This will render the associated script tag.
 
@@ -52,6 +58,7 @@ Contributions are, of course, welcome. Please submit a pull request.
 Code is under [AGPLv3 License][license].
 
 
+[build]: ./actions/workflows/gem-build.yml
 [badge-build]: ./actions/workflows/gem-build.yml/badge.svg
 [badge-coveralls]: https://coveralls.io/repos/jessp01/jekyll-react-player/badge.svg
 [badge-gem]: https://badge.fury.io/rb/jekyll-react-player.svg
