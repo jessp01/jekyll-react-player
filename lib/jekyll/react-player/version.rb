@@ -2,6 +2,6 @@
 
 module Jekyll
   module ReactPlayer
-    VERSION = '0.21.1'
+    VERSION = '0.21.2'
   end
 end
