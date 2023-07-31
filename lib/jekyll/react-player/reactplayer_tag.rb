@@ -33,13 +33,14 @@ module Jekyll
       end
 
       def render_tag(id, url)
-        %(<div id="#{id}">
+%(<div id="#{id}"></div>
 <script src='https://cdn.rawgit.com/CookPete/react-player/master/dist/ReactPlayer.standalone.js'></script>
 <script>
-  const container = document.getElementById("#{id}")
-  const url = '#{url}'
-  renderReactPlayer(container, { url, playing: true, controls: true, width: '100%', height: '100%' })
-</script>)
+  window["#{id}"] = document.getElementById("#{id}")
+  url = '#{url}'
+  renderReactPlayer(window["#{id}"], { url, playing: true, controls: true, width: '100%', height: '100%' })
+</script>
+)
       end
     end
   end
