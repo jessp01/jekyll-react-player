@@ -5,7 +5,7 @@ require 'uri'
 
 module Jekyll
   module ReactPlayer
-    # Implements a Liquid tag for embedding Asciicasts.
+    # Implements a Liquid tag for embedding react-player.
     class ReactPlayerTag < Liquid::Tag
       def render(_context)
         if (tag_contents = parse_tag(@markup.strip))
